@@ -44,11 +44,11 @@ const FoodDetails = ({ foodId }) => {
                 : 'loading...'}
             </ol>
           </p>
-          <h3>Ingredients</h3>
-          <div className="ingredientCard">
+          <h3 className="mx-3">Ingredients</h3>
+          <div className="ingredientCard container-fluid">
             {loading
               ? food.extendedIngredients.map((item) => (
-                  <div className="card mb-3" style={{ maxWidth: '540px' }}>
+                  <div className="card p-3 mb-3" style={{ maxWidth: 'auto' }}>
                     <div className="row g-0">
                       <div className="col-md-4">
                         <img

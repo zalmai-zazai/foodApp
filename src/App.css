@@ -39,7 +39,7 @@
   justify-content: space-around;
 }
 .ingredientCard {
-  width: 18rem;
+  width: auto;
 
   text-align: center;
 }
