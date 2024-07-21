@@ -1,0 +1,54 @@
+.foodTitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+.navbar {
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+}
+.searchContainer {
+  margin-top: 140px;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 10px;
+}
+.card-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.parentContainer {
+  display: flex;
+}
+.innerContainer {
+  flex: 1;
+  padding: 5px;
+  margin: 10px;
+}
+.foodDetails {
+  display: flex;
+  justify-content: space-around;
+}
+.ingredientCard {
+  width: 18rem;
+
+  text-align: center;
+}
+
+.amountUnit {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.amountUnit p {
+  margin: 2px;
+}
